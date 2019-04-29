@@ -1,1 +1,3 @@
 # Travelplanner
+
+Have you ever wanted to get away from your normal life/job/friends/family but cant because its either too expensive or have the time.  Why not plan it anyway!  Now you can, with this travel planner enter in your Destination and a date range in which you would like to go on vacation, and just like that you will recieve most of the information you need to plan the fake vacation of your dreams!
