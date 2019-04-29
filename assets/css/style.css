@@ -1,0 +1,340 @@
+table, td, th,  tr {
+    border-collapse: separate;
+    font-size: 14px;
+    text-align: center;
+    padding: 5px;
+  }
+.yelp {
+  height: 160px;
+  margin-bottom: 5px;
+  font-size: 22px;
+  text-align: left;
+}
+#yelp {
+  padding: 5px;
+  border-collapse: separate;
+  height: 225px;
+  overflow: auto;
+  align-self: center; 
+  display: none;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  
+}
+#yelp::-webkit-scrollbar {
+  width: 1em;
+}
+
+#yelp::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+#yelp::-webkit-scrollbar-thumb {
+background-color: darkgrey;
+outline: 1px solid slategrey;
+}
+
+#headings {
+  background: rgba(224, 251, 255, 0.5);
+}
+
+.display-4 {
+  color: black;
+  font-family: 'Averia Serif Libre', cursive;
+}
+
+.yelppoi {
+  background: rgba(224, 251, 255, 0.5);
+  font-size: 22px;
+  text-align: center;
+  vertical-align: top;
+  margin: 5px;
+  border-collapse: separate;
+  height: 130px;
+  overflow: hide;
+  align-self: center; 
+  display: none;
+ 
+   /* Chrome 10-25, Safari 5.1-6 */
+}
+#yelppoi {
+  overflow:auto;
+  height: 225px;
+  /* background: rgba(224, 251,255, 0.5); */
+  display: none;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+#yelppoi::-webkit-scrollbar {
+  width: 1em;
+}
+
+#yelppoi::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+#yelppoi::-webkit-scrollbar-thumb {
+background-color: darkgrey;
+outline: 1px solid slategrey;
+}
+
+
+/* Sets specs for GIFs appearing in headings */
+.gifs {
+  width: 200px;
+  height: 150px;
+  border: 10 px groove black;
+  border-radius: 10px;
+  align-content: center;
+}
+
+
+
+
+#yelp:nth-child(odd) {
+  background-color: rgba(224, 251, 255, 0.5);
+   
+}
+
+
+#yelp:nth-child(even) {
+  background-color: rgba(224, 251, 255, 0.5);
+}
+
+#yelp:hover {
+  cursor: pointer;
+}
+
+#ticket-master {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  display: none;
+  overflow: auto;
+  height: 225px;
+  
+}
+#ticket-master::-webkit-scrollbar {
+  width: 1em;
+}
+
+#ticket-master::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+#ticket-master::-webkit-scrollbar-thumb {
+background-color: darkgrey;
+outline: 1px solid slategrey;
+}
+
+#ticketmasterdata {
+  font-size: 22px;
+  text-align: center;
+  padding: 5px;
+  border: 10px groove black;
+  border-radius: 11px;
+}
+
+
+#ticket-master:nth-child(odd) {
+  background: rgba(224, 251, 255, 0.5); 
+  padding: 5px;
+}
+
+
+#ticket-master:hover {
+  cursor: pointer;
+}
+
+#ticket-row {
+  background-image: url("../../images/palm-tree-inv.jpg");
+
+}
+
+#weather {
+  background: rgba(224, 251, 255, 0.5);
+  font-size: 18px;
+  font-weight: bolder;
+  display: none;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+div {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+    height: auto;
+}
+
+/* Style for input fields */
+.form-row {
+   background-color: rgba(224, 251, 255, 0.5);
+   text-align: center;
+   font-size: 16px;
+   border-color: black;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 11px;
+    padding-left: 3px;
+}
+
+.form-control {
+    border-color: black;
+    border-width: 1px;
+    border-color: black;
+    border-style: ridge;
+    box-sizing: border-box;
+    
+}
+.gifBorders {
+  height:150px;
+  width: 200px;
+  border: 5px groove yellow;
+  border-radius: 15px;
+}
+
+#sights, #events { 
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+}
+#sightstext, #eventstext {
+  font-size: 32px;
+  color: aqua;
+  font-weight: bolder;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+#submit-btn, #save-btn {
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+    background-color: rgba(0, 255, 255, 0.856);
+    background-size: 100%;
+    height: auto;
+    font-weight: bolder;
+    border: 5px groove rgb(75, 75, 75);
+    border-radius: 15px;
+    padding: 11px;
+    font-style: inherit;
+    text-align: center;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+}
+
+#submit-btn:active {
+    background-color:greenyellow; /* When the button is clicked */
+    box-shadow: 0 7px green;
+    transform: translateY(4px);
+  }
+
+#submit-btn:hover {
+  color: yellow;
+}
+
+#save-btn:hover {
+  color: yellow;
+}
+
+#save-btn:active {
+  background-color: greenyellow; /* When the button is clicked */
+  box-shadow: 0 7px green;
+  transform: translateY(4px);
+}
+.images {
+  height: 200px;
+  width: 200px;
+  float: left;
+  align-self: flex-start;
+  margin-right: 10px;
+  border: 1px groove black;
+  border-radius: 11px;
+}
+
+.flexdisplay {
+  display: flex;
+  width: 80vw;
+  height: 400px;
+  overflow: auto;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+.container {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    color: aqua;
+    font-weight: bolder;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-decoration: underline
+}
+
+html, body {
+    text-align: center;
+    font-size: 18 px;
+    color: red;
+    font-weight: bolder;
+    padding: 2px;
+    background: url("../../images/background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+footer {
+    text-align: center;
+    color:red;
+    border-top: 1px solid white;
+    background: transparent;
+    font-weight: bolder;
+}
+
+.wrapper {
+    width: 1024px;
+    margin: 40px auto;
+}
+
+.jumbotron {
+  background: rgba(224, 251, 255, 0.5);
+  padding: 5px;
+}
+  
+@media only screen and (max-width: 980px) {
+    body {
+        max-width: 100%;
+        height: auto;
+    }
+    .wrapper {
+        width: 800px;
+      }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        max-width: 100%;
+        height: auto;
+    }
+    .wrapper {
+        width: 800px;
+      }
+}
+
+@media only screen and (max-width: 640px) {
+    body {
+        max-width: 100%;
+        height: auto;
+    }
+    header {
+        position: static;
+    }
+    .wrapper {
+        width: 600px;
+    }
+  }
